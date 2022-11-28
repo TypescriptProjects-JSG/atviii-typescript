@@ -1,46 +1,82 @@
-# Getting Started with Create React App
+<div align="center" id="menu">
+    <h1>Atv III - WB TypeScript</h1>
+    <p> TypescriptProjects-CEF&JSG </p>
+    <p>
+    <a href="#sobre">Sobre a atividade</a> | 
+    <a href="#manual">Manual do usuário</a> |
+    <a href="#pastas">Configuração das pastas</a> | 
+  	<a href="#tecnologias">Tecnologias</a> |
+    <a href="#equipe">Equipe</a>
+</p>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>
 
-## Available Scripts
+<h2 id="sobre">📝Sobre a atividade</h2>
 
-In the project directory, you can run:
+<p>Trata-se de uma atividade proposta pelo Professor Dr. Eng. Gerson Penha para testar a competência de seus alunos quanto aos conhecimentos necessários para a conclusão da disciplina de Técnica de Programação I. </p>
 
-### `npm start`
+<p>Nessa atividade foi exigido que se criasse uma interface gráfica (GUI), que funcione tanto em navegadores comuns quando em navegadores de dispositivos móveis,  para o  software que foi desenvolvido na <a href="https://github.com/TypescriptProjects-JSG/atvi-typescript">atividade 1</a> à empresa de salão de beleza hipotética WB.
+</p>
+<p>Vale ressaltar que essa prática é semelhante a <a href="https://github.com/TypescriptProjects-JSG/atvii-typescript">prática anterior</a>, porém dessa vez foi especificado que, ao invés de utilizar os componentes de classe, teriamos que utilizar componentes de função e, se necessário, utilizar hooks para controle do ciclo de vida dos componentes. </p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<a href="#menu">Voltar ao menu </a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2 id="manual"> 📜Manual do Usuário </h2>
 
-### `npm run build`
+1.Criar uma pasta e clonar o repositório com o seguinte comando no cmd: </li>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone https://github.com/TypescriptProjects-JSG/atviii-typescript
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2.Entrar na pasta do projeto (cd atvi-typescript) e executar:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm install
+npm start
+```
 
-### `npm run eject`
+<a href="#menu">Voltar ao menu </a>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<h2 id="pastas"> 🗂Configuração das pastas</h2>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<ul>
+    <li> public: pasta com o arquivo index.html e o favicon</li>
+    <li> src: pasta com as pastas pages e component mais os arquivos index.css e index.tsx </li>
+</ul>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ <a href="#menu">Voltar ao menu </a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+<h2 id="tecnologias">🛠Tecnologias Utilizadas</h2>
+
+<ul> 
+    <li> TypeScript</li>
+    <li> React JS </li>
+    <li> HTML </li>
+    <li> CSS </li>
+    <li> Github </li>
+    <li> Discord </li>
+    <li> Visual Studio Code</li>
+</ul>
+
+<a href="#menu">Voltar ao menu</a>
+
+
+
+<h2 id="equipe">👥 Equipe</h2>
+
+|      | Nome                    |
+| ---- | ----------------------- |
+| 1    | Carlos Eduardo Falandes |
+| 2    | Júlia Sousa Gayotto     |
+
+ <a href="#menu">Voltar ao menu </a>
+
