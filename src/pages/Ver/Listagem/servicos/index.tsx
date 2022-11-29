@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-pascal-case */
 import { Table } from 'react-bootstrap';
 import NavBar_ from '../../../../component/barraNavegacao';
 import { useNavigate } from 'react-router-dom';
@@ -19,13 +18,13 @@ function Servicos() {
                             <tr>
                                 <th>Serviço</th>
                                 <th>Preço</th>
-                                <th>Ações</th>
+                                <th>Opções</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>Massagem</td>
-                                <td>500,00</td>    
+                                <td>R$ 500,00</td>    
                                 <td>
                                     <div>
                                         <a className="editar-cps" href={`/editar_servico/1`}>Editar</a> <br />  

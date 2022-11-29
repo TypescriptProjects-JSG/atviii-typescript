@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-pascal-case */
 import { Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import NavBar_ from '../../../../component/barraNavegacao';

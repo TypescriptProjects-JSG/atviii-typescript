@@ -15,27 +15,13 @@ function Consumos() {
                         <thead className='titles-table'>
                             <tr>
                                 <th>Nome</th>
-                                <th>Total Produtos</th>
+                                <th>Total </th>
                             </tr>
                         </thead>
                         <tbody className='body-table'>
                             <tr>
                                 <td>Carlos Eduardo Falandes</td>
-                                <td>670</td>
-                            </tr>
-                        </tbody>
-                    </Table>
-                    <Table striped bordered hover variant="light">
-                        <thead className='titles-table'>
-                            <tr>
-                                <th>Nome</th>
-                                <th>Total Serviços</th>
-                            </tr>
-                        </thead>
-                        <tbody className='body-table'>
-                            <tr>
-                                <td>Carlos Eduardo Falandes</td>
-                                <td>700</td>
+                                <td>R$ 670</td>
                             </tr>
                         </tbody>
                     </Table>

@@ -22,7 +22,7 @@ function Clientes() {
                                 <th>CPF</th>
                                 <th>RG</th>
                                 <th>Telefone</th>
-                                <th>Ações</th>
+                                <th>Opções</th>
                             </tr>
                         </thead>
                         <tbody>

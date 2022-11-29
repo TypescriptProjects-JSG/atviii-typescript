@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-pascal-case */
 import { Table } from 'react-bootstrap';
 import NavBar_ from '../../../../component/barraNavegacao';
 import { useNavigate } from 'react-router-dom';
@@ -18,13 +17,13 @@ function Produtos() {
                             <tr>
                                 <th>Produto</th>
                                 <th>Preço</th>
-                                <th>Ações</th>
+                                <th>Opções</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>Creme</td>
-                                <td>120,00</td>    
+                                <td>R$ 120,00</td>    
                                 <td>
                                     <div>
                                         <a className="editar-cps"  href={`/editar_produto/1`}>Editar</a> <br />  
