@@ -18,7 +18,7 @@
 
 <p>Nessa atividade foi exigido que se criasse uma interface gráfica (GUI), que funcione tanto em navegadores comuns quando em navegadores de dispositivos móveis,  para o  software que foi desenvolvido na <a href="https://github.com/TypescriptProjects-JSG/atvi-typescript">atividade 1</a> à empresa de salão de beleza hipotética WB.
 </p>
-<p>Vale ressaltar que essa prática é semelhante a <a href="https://github.com/TypescriptProjects-JSG/atvii-typescript">prática anterior</a>, porém dessa vez foi especificado que, ao invés de utilizar os componentes de classe, teriamos que utilizar componentes de função e, se necessário, utilizar hooks para controle do ciclo de vida dos componentes. </p>
+<p>Vale ressaltar que essa prática é semelhante a <a href="https://github.com/TypescriptProjects-JSG/atvii-typescript">prática anterior</a>, porém dessa vez foi especificado que, ao invés de utilizar componentes de classe, teriamos que utilizar componentes de função e, se necessário, utilizar hooks para controle do ciclo de vida dos componentes. </p>
 
 <a href="#menu">Voltar ao menu </a>
 
