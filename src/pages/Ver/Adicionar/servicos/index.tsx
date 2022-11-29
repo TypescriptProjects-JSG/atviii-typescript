@@ -1,8 +1,8 @@
 import { Table } from 'react-bootstrap';
 import NavBar_ from '../../../../component/barraNavegacao';
-import { Component } from 'react';
 import { Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+import '../../Listagem/styles.css'
 
 function AdcServicos() {
     const navigate = useNavigate();
@@ -19,7 +19,7 @@ function AdcServicos() {
                             <tr>
                                 <th>Serviço</th>
                                 <th>Preço</th>
-                                <th>Ações</th>
+                                <th>Opções</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -28,7 +28,7 @@ function AdcServicos() {
                                 <td>R$ 500,00</td>    
                                 <td>
                                     <div>
-                                        <a href={`/adicionar_servico/1`}>Adicionar ao cliente</a> <br />  
+                                        <a className="add-servico" href={`/adicionar_servico/1`}>Adicionar ao cliente</a> <br />  
                                     </div>
                                 </td>
                             </tr>

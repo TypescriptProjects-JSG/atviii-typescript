@@ -1,8 +1,8 @@
 import {  Table } from 'react-bootstrap';
 import NavBar_ from '../../../../component/barraNavegacao';
-import { Component } from 'react';
 import { Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+import '../../Listagem/styles.css'
 
 function AdcProdutos() {
     const navigate = useNavigate();
@@ -19,7 +19,7 @@ function AdcProdutos() {
                             <tr>
                                 <th>Produto</th>
                                 <th>Preço</th>
-                                <th>Ações</th>
+                                <th>Opções</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -28,7 +28,7 @@ function AdcProdutos() {
                                 <td>R$ 120,00</td>    
                                 <td>
                                     <div>
-                                        <a href={`/adicionar_produto/1`}>Adicionar ao cliente</a> <br />  
+                                        <a className="add-produto" href={`/adicionar_produto/1`}>Adicionar ao cliente</a> <br />  
                                     </div>
                                 </td>
                             </tr>
