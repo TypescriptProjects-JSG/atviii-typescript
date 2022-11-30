@@ -29,7 +29,7 @@ function Consumos() {
                             </tr>
                         </tbody>
                     </Table>
-                    <h1 className='titles'> <strong> Serviços mais consumidos </strong></h1>
+                    <h1 className='titles'> <strong> Serviços mais consumidos por gênero </strong></h1>
                     <Table striped bordered hover variant="light">
                         <thead className='titles-table'>
                             <tr>
