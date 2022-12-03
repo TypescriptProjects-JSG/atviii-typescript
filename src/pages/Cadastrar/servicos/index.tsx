@@ -12,12 +12,12 @@ function CadastrarServicos() {
                 <div className="forms">
                     <form>
                         <div className="field">
-                            <label htmlFor="Produto">Serviço:</label>
+                            <label htmlFor="Produto">Nome do serviço:</label>
                             <input placeholder='Insira o nome do serviço' type="text" />
                         </div>
                         <div className="field">
                             <label htmlFor="Preco">Valor R$:</label>
-                            <input placeholder='R$ XX,XX' type="number" min={0}  />
+                            <input placeholder='XX' type="number" min={0}  />
                         </div>
                         <Button className="submit" variant="outline" type='submit'>Cadastrar</Button>{' '}
                     </form>

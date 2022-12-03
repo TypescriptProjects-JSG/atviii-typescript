@@ -34,9 +34,9 @@ function AdcProdutos() {
                             </tr>
                         </tbody>
                     </Table>
-                    <div className="button-l">
-                        <Button className="submit" variant="outline" onClick={() => navigate(-1)}>Voltar</Button>{' '} 
-                    </div>
+                </div>
+                <div className="button-l">
+                    <Button className="submit submit-add" variant="outline" onClick={() => navigate(-1)}>Voltar</Button>{' '} 
                 </div>
             </main>
         </section>

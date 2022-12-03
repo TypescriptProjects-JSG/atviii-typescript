@@ -33,10 +33,10 @@ function AdcServicos() {
                                 </td>
                             </tr>
                         </tbody>
-                    </Table>
-                    <div className="button-l">
-                        <Button className="submit" variant="outline" onClick={() => navigate(-1)}>Voltar</Button>{' '} 
-                    </div>
+                    </Table>    
+                </div>
+                <div className="button-l">
+                    <Button className="submit submit-add" variant="outline" onClick={() => navigate(-1)}>Voltar</Button>{' '} 
                 </div>
             </main>
         </section>
